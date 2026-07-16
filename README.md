@@ -1,9 +1,4 @@
 # 🔍 Network Traffic Analysis using Wireshark
-
-<p align="center">
-  <img src="assets/banner.png" alt="Project Banner" width="100%">
-</p>
-
 ![Wireshark](https://img.shields.io/badge/Wireshark-Network%20Analysis-blue)
 ![Python](https://img.shields.io/badge/Python-Automation-yellow)
 ![CyberChef](https://img.shields.io/badge/CyberChef-Cryptography-green)
@@ -62,11 +57,6 @@ The objective was to analyze a captured PCAP file, inspect network communication
 ---
 
 # 🔄 Investigation Workflow
-
-<p align="center">
-<img src="assets/workflow.png" width="800">
-</p>
-
 ```
 PCAP
    │
