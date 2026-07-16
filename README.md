@@ -123,11 +123,6 @@ Key observations:
 - ARP Request
 - ARP Reply
 - Successful MAC Resolution
-
-<p align="center">
-<img src="screenshots/02_arp_analysis.png">
-</p>
-
 ---
 
 # 🤝 TCP Three-Way Handshake
@@ -141,7 +136,7 @@ Observed sequence:
 - ACK
 
 <p align="center">
-<img src="screenshots/03_tcp_handshake.png">
+<img src="screenshots/02_tcp_handshake.png">
 </p>
 
 ---
@@ -156,11 +151,11 @@ The FTP control session revealed:
 - File Transfer
 
 <p align="center">
-<img src="screenshots/04_ftp_authentication.png">
+<img src="screenshots/03_ftp_successful_authentication.png">
 </p>
 
 <p align="center">
-<img src="screenshots/05_ftp_commands.png">
+<img src="screenshots/04_ftp_successful_file_transfer.png">
 </p>
 
 ---
@@ -176,7 +171,7 @@ Recovered information included:
 - Initialization Vector
 
 <p align="center">
-<img src="screenshots/06_exported_configuration.png">
+<img src="screenshots/05_agent_config_content.png">
 </p>
 
 ---
@@ -192,7 +187,7 @@ Analysis included:
 - Response Inspection
 
 <p align="center">
-<img src="screenshots/07_http_post_request.png">
+<img src="screenshots/06_HTTP_POST_data.png">
 </p>
 
 ---
@@ -216,9 +211,8 @@ The recovered configuration contained an AES key and IV.
 CyberChef was used to inspect the encrypted payload.
 
 <p align="center">
-<img src="screenshots/08_cyberchef_aes_decrypt.png">
+<img src="screenshots/08_invalid_AES_key_length_by_Cyberchef.png">
 </p>
-
 ---
 
 # 🔓 Decrypted Payload
@@ -226,7 +220,7 @@ CyberChef was used to inspect the encrypted payload.
 After AES analysis, the decrypted JSON revealed additional XOR encrypted data.
 
 <p align="center">
-<img src="screenshots/09_decrypted_payload.png">
+<img src="screenshots/09_Successful_Decryption.png">
 </p>
 
 ---
@@ -236,21 +230,10 @@ After AES analysis, the decrypted JSON revealed additional XOR encrypted data.
 A Python script was developed to test all XOR keys and identify the correct plaintext.
 
 <p align="center">
-<img src="screenshots/10_xor_bruteforce.png">
+<img src="screenshots/11_xor_bruteforce_result.png">
 </p>
 
 ---
-
-# 🏁 Flag Recovery
-
-The automated analysis successfully recovered the challenge flag.
-
-<p align="center">
-<img src="screenshots/11_flag_recovery.png">
-</p>
-
----
-
 # 📂 Repository Structure
 
 ```
