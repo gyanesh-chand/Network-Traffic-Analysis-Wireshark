@@ -265,18 +265,6 @@ The complete technical investigation report is available here:
 - Identifying insecure network protocols
 - Investigating encrypted communications
 - Automating repetitive forensic tasks using Python
-
----
-
-# 📚 References
-
-- Wireshark Documentation
-- CyberChef Documentation
-- Python Documentation
-- OWASP
-- RFC 793 (TCP)
-- RFC 959 (FTP)
-
 ---
 
 # 📜 License
