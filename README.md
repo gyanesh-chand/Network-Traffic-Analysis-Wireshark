@@ -1,49 +1,57 @@
-# network-traffic-analysis-wireshark
+# Network Traffic Analysis using Wireshark
 
 ## Project Overview
 
-Replace with your own content.
+This project demonstrates a structured network traffic analysis and forensic investigation using Wireshark, CyberChef, and Python.
 
-## Objectives
+The objective was to analyze a captured PCAP file, reconstruct network communications, identify security weaknesses, inspect encrypted traffic, and recover the final CTF flag through systematic analysis.
 
-Replace with your own content.
+---
 
 ## Skills Demonstrated
 
-Replace with your own content.
+- PCAP Analysis
+- Network Traffic Analysis
+- Wireshark
+- Network Forensics
+- Protocol Analysis
+- FTP Analysis
+- HTTP Analysis
+- TCP Stream Analysis
+- CyberChef
+- AES Analysis
+- XOR Analysis
+- Python Automation
+- Technical Documentation
+
+---
 
 ## Tools Used
 
-Replace with your own content.
+- Wireshark
+- CyberChef
+- Python
+- Kali Linux
 
-## Project Structure
+---
 
-Replace with your own content.
+## Investigation Workflow
 
-## Methodology
+PCAP Analysis
+→ Protocol Inspection
+→ FTP Analysis
+→ HTTP Analysis
+→ Vulnerability Identification
+→ AES Decryption
+→ XOR Analysis
+→ Flag Recovery
 
-Replace with your own content.
-
-## Screenshots
-
-Replace with your own content.
-
-## Key Findings
-
-Replace with your own content.
+---
 
 ## Repository Structure
 
-Replace with your own content.
-
-## Future Improvements
-
-Replace with your own content.
-
-## References
-
-Replace with your own content.
-
-## License
-
-Replace with your own content.
+```text
+report/
+screenshots/
+scripts/
+README.md
